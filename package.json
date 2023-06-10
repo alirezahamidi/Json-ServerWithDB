@@ -1,0 +1,25 @@
+{
+  "name": "json-serverwithdb",
+  "version": "1.0.0",
+  "description": "The Express.js server is responsible for handling HTTP requests and providing an interface to interact with the database. It includes authentication using JWT tokens and supports CRUD operations for the \"users\" entity. Here's a breakdown of the server's functionality:",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezahamidi/Json-ServerWithDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezahamidi/Json-ServerWithDB/issues"
+  },
+  "homepage": "https://github.com/alirezahamidi/Json-ServerWithDB#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
