@@ -79,8 +79,9 @@ class DBEngine {
     }
 
     getEntityData(entityName) {
-        if (this.data[entityName]) {
-            return this.data[entityName];
+        this.loadDataFromJson();
+        if (this.loadDataFromJson()[entityName]) {
+            return this.loadDataFromJson()[entityName];
         } else {
             throw new Error('Entity does not exist.');
         }
